@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #f6f7f9;
+    overflow-x: hidden;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    gap: 1rem;
+}
+
+.navbar {
+    grid-column: 1 / span 3;
+    background-color: #1a1a2e;
+    padding: 1rem 2rem;
+    color: #87e945;
+}
+
+.profile h1 {
+    font-size: 3rem;
+}
+
+.profile span {
+    font-size: 1.5rem;
+}
+
+.firstbox .thirdbox {
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.secondbox {
+    background-color: #e9d045;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.details .title {
+    color: black;
+    font-weight: 600;
+    margin-right: 1rem;
+}
+
+.details span {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.css_button .button {
+    color: white;
+    background-color: #e94560;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.skill .po {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.skill .po .cool {
+    width: 60%;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.skill .po .cool .inner {
+    height: 8px;
+    background-color: #e94560;
+    border-radius: 5px;
+}
+
+.buttonGithub {
+    height: 20px;
+    background-color: #457ee9;
+    border-radius: 5px;
+    
+}

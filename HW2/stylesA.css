@@ -1,0 +1,42 @@
+body {
+    font-family: 'Tahoma';
+}
+
+.VersionA {
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.VersionB {
+    display: none;
+}
+
+.allboxs {
+    width: 100px;
+    margin: auto;
+}
+
+.box, .boxF {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.box {
+    background-color: #dfe1e7;
+    border-top: 1px solid #687291;
+}
+
+.box p, .boxF p {
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.boxF {
+    background-color: #687291;
+    border: 4px solid;
+    margin-left: -4px;
+}
