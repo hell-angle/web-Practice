@@ -63,7 +63,7 @@ function App() {
               <div className="details">
                 <h2>Details</h2>
                 <span className="title">Name:</span>
-                <span> Dau Dinh Quang Anh</span>
+                <span> Do Cong Trinh</span>
                 <span className="title">Age:</span>
                 <span> 21 years</span>
                 <span className="title">Location:</span>
